@@ -1,6 +1,6 @@
 # Hello There
 
-My intent for this project is to demonstrate my PGit/GitHub and Python knowledge. The Python portion of my project is geared toward data analysis.
+My intent for this project is to demonstrate my Git/GitHub and Python knowledge. The Python portion of my project is geared toward data analysis.
 
 ## My Site 
 Future instructions for this project to go here
