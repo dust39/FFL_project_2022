@@ -5,7 +5,7 @@ My intent for this project is to demonstrate my Git/GitHub and Python knowledge.
 ## My Project 
 Future instructions for this project to go here.
 
-I have a great interest and passion for Fantasy Football. I sourced my data from [FantasyDataPros](www.fantasyfootballdatapros.com)
+I have a great interest and passion for Fantasy Football. I sourced my data from [FantasyDataPros](https://www.fantasyfootballdatapros.com/csv_files)
 
 ### My Project Features
 Below is information on features I selected to met my project requirements:
