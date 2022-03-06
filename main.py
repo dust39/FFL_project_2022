@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 msg="Welcome to my Python Fantasy Football Project 2022"
 print(msg)
 
-df1=pd.read_csv("data_v2/yearly/2019.csv")
+df1=pd.read_csv("project_data/yearly/2019.csv")
 df1.sort_values("FantasyPoints", ascending=False)
 
 

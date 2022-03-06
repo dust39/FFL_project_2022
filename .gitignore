@@ -1,3 +1,6 @@
+#All data, I dont want to upload all of my data to Github, only what is required for my project
+data_v2/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -5,6 +8,9 @@ __pycache__/
 
 # C extensions
 *.so
+
+#All data, I dont want to upload all of my data to Github, only what is required for my project
+
 
 # Distribution / packaging
 .Python
@@ -109,6 +115,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+FFL_Project_2022
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +134,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
