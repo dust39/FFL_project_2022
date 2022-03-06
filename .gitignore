@@ -1,10 +1,12 @@
 #All data, I dont want to upload all of my data to Github, only what is required for my project
 data_v2/
 
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+*$py.class-
 
 # C extensions
 *.so
