@@ -10,6 +10,19 @@ I have a great interest and passion for Fantasy Football. I sourced my data from
 ### My Project Features
 Below is information on features I selected to met my project requirements:
 
+### Relevant Packages   
+I have maintainted a requirements.txt file for tracking relevant packages the I had installed for this project. A user should be able to create a virtual enviroment and then install the required libraries and packages via requirements.txt. 
+
+To install:
+    1.Clone my repository 
+    2.Navigate the directory where your virtual environment will be created
+        1. Create your virtual environment
+    3.Navigate back to the project folder
+        1. In your commandline run python -m pip install -r requirements.txt
+
+You should now be able to execute my program!
+
+
 #### Read Data From an External File
 I sourced my data set from FantasyDataPros as noted above. I used the Pandas libary to read in data from a .CSV file, which contained weekly Fantasy Football statics from the 2019 season. In the future I intend to better learn how to use APIs, so that I can source my current data set. An example would be using ESPN.com's API for fantasy football data.
 
