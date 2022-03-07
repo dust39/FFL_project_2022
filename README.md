@@ -14,10 +14,10 @@ Below is information on features I selected to met my project requirements:
 I have maintainted a requirements.txt file for tracking relevant packages the I had installed for this project. A user should be able to create a virtual enviroment and then install the required libraries and packages via requirements.txt. 
 
 To install:
-    1.Clone my repository 
-    2.Navigate the directory where your virtual environment will be created
+    1. Clone my repository 
+    2. Navigate the directory where your virtual environment will be created
         1. Create your virtual environment
-    3.Navigate back to the project folder
+    3. Navigate back to the project folder
         1. In your commandline run python -m pip install -r requirements.txt
 
 You should now be able to execute my program!
