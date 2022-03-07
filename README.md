@@ -17,9 +17,9 @@ To install:
 
 1. Clone my repository 
 2. Navigate the directory where your virtual environment will be created
-    1.Create your virtual environment
+    1. Create your virtual environment
 3. Navigate back to the project folder
-    1.In your commandline run python -m pip install -r requirements.txt
+    1. In your commandline run python -m pip install -r requirements.txt
 
 You should now be able to execute my program!
 
