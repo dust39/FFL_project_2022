@@ -3,7 +3,7 @@
 My intent for this project is to demonstrate my Git/GitHub and Python knowledge. The Python portion of my project is geared toward data analysis.
 
 ## My Project 
-This project is a very simple python script that allows the user to look at the top 10 Fantasy Football scorers and their position from years 1970-2019. It is worth noting that the script does not perform or output anything complex. However, the experience I gained by coding this project was invaluable. I tried my best to code well and be "Pythonic". However, keep in mind this is my very first Python Script! :blush:
+This project is a very simple python script that allows the user to look at the top 10 Fantasy Football scorers and their position from years 1970-2019. It is worth noting that the script does not perform or output anything complex. However, the experience I gained by coding this project was invaluable. I tried my best to code well and be "Pythonic". Please keep in mind this is my very first Python Script! :blush:
 
 1. Running the program will do the following:
     1. The user will select a year for which the user wants to see the top 10 Fantasy Scorers and their position in that given year. 
@@ -21,7 +21,7 @@ Below is information on how to run the program followed by the features I select
 1. Clone my repository 
 2. Navigate to the directory where your virtual environment will be created
     1. Create your virtual environment
-    2. Install the required packages using my generated requriments.txt file
+    2. Install the required packages using my generated requirements.txt file
 3. Run main.py from your command prompt:
     1. The user will get a welcome message.
     2. The user will be asked to select a year they would like to see data for. The year must be from 1970-2019.
@@ -35,7 +35,7 @@ Below is information on how to run the program followed by the features I select
     1. I used the notebook for trial and error. I left nearly everything I did in the notebook, whether it made it to the final program or not.
         1. Most code in the notebook has a commented line above explaining what the code did, for my future reference.
             1. Some of the code I didn't use but I felt like could be useful in the future, and so the code block was commented out.
-        2. The notebook had some code that was executed in the notebook but was not pertinent to execution of the main program. However, was vital to was to learning some of the features of python, pandas, pyplot etc.  
+        2. The notebook had some code that was executed in the notebook but was not pertinent to execution of the main program. However, this was vital to learning some of the features of python, pandas, pyplot etc.  
 5. One final note, I uploaded all my data .csv files to the repository. I know this is not best practice, but it made the most sense to enable users to test this particular Python program.
 
 
