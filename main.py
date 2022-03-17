@@ -6,7 +6,7 @@ msg="Welcome to my Python Fantasy Football Project 2022"
 print(msg)
 
 def getuserinput():
-    year=input("Hello, please a four digit year from 1970 to 2019 to the top 10 fantasy scorers from that year!")
+    year=input("Hello, please enter a four digit year from 1970 to 2019 to see the top 10 fantasy scorers from that year!")
     converted_num=int(year)
     if converted_num in range(1970,2020,1):
        return(year)
