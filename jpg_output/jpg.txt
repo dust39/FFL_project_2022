@@ -1,0 +1,1 @@
+No data here. Just needed a file so that this directory would push to github, allowing my program to store .jpg files that are output to this directory. 
