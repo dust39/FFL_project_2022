@@ -2,6 +2,8 @@ import pandas as pd
 
 import matplotlib.pyplot as plt
 
+import sys
+
 msg="Welcome to my Python Fantasy Football Project 2022"
 print(msg)
 
@@ -11,9 +13,13 @@ def getuserinput():
     if converted_num in range(1970,2020,1):
        return(year)
     else:
-        year=input("Please try again. Please enter a valid 4 digit year between 1970 and 2019. Type 'end' to quit.")
-        if year == "end" or year == "'end'":    
-            exit()
+        while converted_num not in range(1970,2020,1): 
+            year=input("Please try again. Please enter a valid 4 digit year between 1970 and 2019. Type 'end' to quit.")
+            if year == "end" or year == "'end'":                
+                sys.exit()
+            converted_num=int(year)
+        else:
+            return(year)   
 
 desired_year=getuserinput()
 
