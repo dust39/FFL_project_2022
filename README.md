@@ -21,7 +21,7 @@ Below is information on how to run the program followed by the features I select
 1. Clone my repository 
 2. Navigate to the directory where your virtual environment will be created
     1. Create your virtual environment
-    2. Install the required packages using my generated requirements.txt file
+    2. Install the required packages using my generated requirements.txt. I created requirements.txt on a windows machine. For those on other Operating Systems I created a pared down version named requirements_multi_OS.txt
 3. Run main.py from your command prompt:
     1. The user will get a welcome message.
     2. The user will be asked to select a year they would like to see data for. The year must be from 1970-2019.
@@ -57,7 +57,9 @@ For this requirement I used the matplotlib library to create a simple bar chart 
 The program also created and saved a .jpg version of the plot mentioned above. The .jpg file has the year selected as part of the file naming convention.
 
 #### Category 4- Best Practices
-For this requirement I created a virtual environment to complete my project. I used the Python PIP Freeze command to periodically list my document library dependencies via a requirements.txt file, which is in my repository for this project. This use of the requirments.txt file is outlined in the `Steps to Run my Program` section above. Fortunately I have not added any additional library installs since the beginning of my project. So, even though I have run PIP Freeze command periodically, nothing has changed so the file in GitHub is also unchanged.
+For this requirement I created a virtual environment to complete my project. I used the Python PIP Freeze command to periodically list my document library dependencies via a requirements.txt file, which is in my repository for this project. The use of the requirements.txt file is outlined in the `Steps to Run my Program` section above. Fortunately I have not added any additional library installs since the beginning of my project. So, even though I have run PIP Freeze command periodically, nothing has changed so the file in GitHub is also unchanged.
+
+At the time of posting this project, I was not aware that PIP Freeze may cause issues for users on other Operating Systems. I left the requirements.txt in tact because I have had other users test it and I know it works on Windows machines. However, I also created a separate requirements file named requirements_multi_OS.txt. This is a pared down version and should allow users with other operating systems to match my libraries for this project. If a user is still having problems the main libraries/packages/modules that I used were: Pandas, Matplotlib, and ipython/ipykernel for the Jupyter portion.
 
 #### Git / GitHub
 
